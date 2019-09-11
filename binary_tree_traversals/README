@@ -1,0 +1,1 @@
+bt.java is a class designed to create a binary tree of bnodes. The class contains methods to print the inorder, postorder, and preorder traversals of the tree.
