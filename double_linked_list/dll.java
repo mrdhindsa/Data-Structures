@@ -71,11 +71,12 @@ public class dll {
         while(temp != null){
             if(temp.value == val){
                 System.out.println("Found");
-                break;
+                return;
             }
             else{
                  temp = temp.next;
             }
         }
+        System.out.println("Not Found");
     }
 }
