@@ -45,6 +45,11 @@ public class dll {
             System.out.println("Empty DLL");
         }
         else{
+            if(size == 1){
+                System.out.println(head.value);
+                head = tail = null;
+                return;
+            }
             dllnode toreturn = head;
             head = head.next;
             head.prev = null;
@@ -58,6 +63,11 @@ public class dll {
             System.out.println("Empty DLL");
         }
         else{
+            if(size == 1){
+                System.out.println(tail.value);
+                tail = head = null;
+                return;
+            }
             dllnode toreturn = tail;
             tail = tail.prev;
             tail.next = null;
