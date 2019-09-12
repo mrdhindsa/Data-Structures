@@ -11,7 +11,6 @@ public class q {
     }
 
     public void eq (String name){
-        System.out.println(size);
         node newnode = new node(name);
         if(size == 0){
             head = newnode;
