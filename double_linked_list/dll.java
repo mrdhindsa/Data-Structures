@@ -12,7 +12,7 @@ public class dll {
         }
     }
 
-    public void addtoend (int val) {
+    public void addtostart (int val) {
         dllnode newnode = new dllnode(val);
         if(size == 0){
             head = newnode;
